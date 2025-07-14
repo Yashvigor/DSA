@@ -1,0 +1,41 @@
+1. Definition of Sorting
+Sorting is the process of arranging data in a particular order (ascending or descending).
+
+🔹 2. Types of Sorting Based on Data Location
+✅ Internal Sort
+All elements are present in the main memory during sorting.
+
+Suitable for small datasets that fit entirely in RAM.
+
+Example: Sorting an array of 10 integers stored in memory.
+
+✅ External Sort
+Some data is stored in secondary memory (like hard disks or external devices).
+
+Used when data is too large to fit in main memory.
+
+Example: Sorting a huge database file stored on disk.
+
+🔹 3. In-place Sort
+The algorithm sorts data by transforming the input within the same memory space.
+
+It does not use extra memory or minimal extra space.
+
+We convert the input to the output in-place.
+
+Example: Selection Sort, Bubble Sort, Insertion Sort
+
+🔹 4. Stable Sort
+A sorting algorithm is stable if it maintains the relative order of equal elements.
+ "First come, first serve" — The earlier element stays first if two elements are equal.
+Example:
+Input:
+[(2, a), (3, b), (5, c), (5, d), (8, e)]
+
+Here, two elements have value 5: (5, c) and (5, d)
+
+After Stable Sort:
+[(2, a), (3, b), (5, c), (5, d), (8, e)] ✅ → relative order maintained.
+
+After Unstable Sort:
+[(2, a), (3, b), (5, d), (5, c), (8, e)] ❌ → order changed.
