@@ -1,0 +1,66 @@
+➔ Complexity Analysis :-
+Time Complexity
+
+Space Complexity
+
+✳ Time Complexity :-
+It is not equal to time taken.
+
+Rate of change
+
+Avoid constants
+
+Worst possible case (for Big-O notation)
+
+i) Big - O
+→ Worst complexity
+
+ii) Theta - (θ)
+→ Average complexity
+
+iii) Omega - (Ω)
+→ Best complexity
+
+e.g.
+for (i = 1; i <= N; i++)       → N
+{
+    for (j = 1; j <= N; j++)   → N
+    {
+        // y code
+    }
+    y
+}
+⇒ O(N²)
+
+✳ e.g.
+for (i = 1; i <= N; i++)             // outer loop
+{
+    for (j = 1; j <= i; j++)         // inner loop
+    {
+        y
+    }
+}
+Let’s evaluate inner loop for:
+
+i = 1 → j = 1 ⇒ (1)
+
+i = 2 → j = 1, 2 ⇒ (1,2)
+
+i = 3 → j = 1, 2, 3 ⇒ (1,2,3)
+
+i = 4 → j = 1,2,3,4 ⇒ (1,2,3,4)
+
+i = 5 → j = 1,2,3,4,5 ⇒ (1,2,3,4,5)
+
+Total operations:
+
+for N = (1 + 2 + 3 + ... + N)
+= N(N + 1) / 2
+= O(N²)
+
+✳ Space Complexity :-
+Auxiliary space + Input space
+(Space that code uses) + (data given)
+
+e.g.
+arr[N] → O(N) space complexity
