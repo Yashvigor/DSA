@@ -1,1 +1,1 @@
-#array
+This repository documents my Data Structures and Algorithms (DSA) learning journey with a clear goal of solving at least one problem every day to build consistency and strong problem-solving skills. This repo serves as a daily progress tracker and a long-term reference for interview preparation and core DSA fundamentals.
